@@ -8,8 +8,8 @@ LATITUDE = 41.8781
 LONGITUDE = -87.6298
 
 # Date range matching our crime dataset
-START_YEAR = 2001
-END_YEAR = 2023
+START_YEAR = 2008
+END_YEAR = 2025
 
 # Output path
 OUTPUT_PATH = Path("../../data/raw/weather_chicago.parquet")
