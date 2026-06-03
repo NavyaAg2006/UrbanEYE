@@ -12,16 +12,17 @@ def get_engine():
     return engine
 
 
-def load_csv_to_db(csv_path):
-    # Read CSV file
-    df = pd.read_csv(csv_path)
-    print(f"CSV loaded! Rows: {len(df)}, Columns: {list(df.columns)}")
+def load_parquet_to_db(parquet_path):
+    # Read parquet file
+    df = pd.read_parquet(parquet_path)
+    print(f"File loaded! Shape: {df.shape}")
+    print(f"Columns: {df.columns.tolist()}")
 
     # Load into database
     engine = get_engine()
-    df.to_sql('crimes', engine, if_exists='append', index=False)
+    df.to_sql('crimes', engine, if_exists='replace', index=False)
     print("Data loaded into database successfully!")
 
 
 if __name__ == "__main__":
-    load_csv_to_db("data/raw/sample_crimes.csv")
+    load_parquet_to_db("data/processed/features.parquet")
