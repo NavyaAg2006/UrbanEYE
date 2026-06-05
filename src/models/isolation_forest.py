@@ -26,7 +26,7 @@ def train_isolation_forest():
     # Create the Isolation Forest model
     model = IsolationForest(
         n_estimators=100,
-        contamination=0.05,
+        contamination=0.02,
         random_state=42
     )
 
