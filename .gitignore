@@ -9,7 +9,8 @@ wheels/
 # Virtual environments
 .venv
 data/raw/
-models/
+/models/
+!/src/models
 .env
 test.py
 

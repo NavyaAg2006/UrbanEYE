@@ -1,0 +1,22 @@
+artifact_path: /Users/navyaagarwal/Projects/urbaneye/mlruns/257832932030476508/models/m-b356df72ac5b4c69a22b345784937d92/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.13.5
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBRegressor
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.12.0
+model_id: m-b356df72ac5b4c69a22b345784937d92
+model_size_bytes: 742740
+model_uuid: m-b356df72ac5b4c69a22b345784937d92
+prompts: null
+run_id: 9cba97d7ab22446abb1482fe3285f50b
+utc_time_created: '2026-06-05 15:33:17.590010'

@@ -1,0 +1,10 @@
+artifact_location: /Users/navyaagarwal/Projects/urbaneye/mlruns/257832932030476508/models/m-b5a38d132a21441fa9e066108d2f9493/artifacts
+creation_timestamp: 1780673388726
+experiment_id: '257832932030476508'
+last_updated_timestamp: 1780673389592
+model_id: m-b5a38d132a21441fa9e066108d2f9493
+model_type: null
+name: linear_regression_model
+source_run_id: bfc03e97e6bc403b87797b45363da85d
+status: 2
+status_message: null

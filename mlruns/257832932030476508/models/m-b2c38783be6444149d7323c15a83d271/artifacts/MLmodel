@@ -1,0 +1,23 @@
+artifact_path: /Users/navyaagarwal/Projects/urbaneye/mlruns/257832932030476508/models/m-b2c38783be6444149d7323c15a83d271/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.12.0
+model_id: m-b2c38783be6444149d7323c15a83d271
+model_size_bytes: 1018
+model_uuid: m-b2c38783be6444149d7323c15a83d271
+prompts: null
+run_id: 651c2605121d4b2d9944c73e941f10f5
+utc_time_created: '2026-06-05 15:33:10.191515'
