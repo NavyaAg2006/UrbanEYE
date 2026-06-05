@@ -2,7 +2,7 @@ import mlflow
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent.parent
-MLFLOW_TRACKING_URI = str(ROOT / "mlruns")
+MLFLOW_TRACKING_URI = f"sqlite:///{ROOT}/mlflow.db"
 EXPERIMENT_NAME = "urbaneye"
 
 
