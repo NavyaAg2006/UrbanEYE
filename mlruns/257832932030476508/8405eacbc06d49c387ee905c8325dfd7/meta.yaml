@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/257832932030476508/8405eacbc06d49c387ee905c8325dfd7/artifacts
+end_time: 1780683582892
+entry_point_name: ''
+experiment_id: '257832932030476508'
+lifecycle_stage: active
+run_id: 8405eacbc06d49c387ee905c8325dfd7
+run_name: calm-moose-869
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780683576127
+status: 3
+tags: []
+user_id: navyaagarwal

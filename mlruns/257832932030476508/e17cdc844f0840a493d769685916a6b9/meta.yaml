@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/257832932030476508/e17cdc844f0840a493d769685916a6b9/artifacts
+end_time: 1780683285616
+entry_point_name: ''
+experiment_id: '257832932030476508'
+lifecycle_stage: active
+run_id: e17cdc844f0840a493d769685916a6b9
+run_name: awesome-deer-243
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780683277676
+status: 3
+tags: []
+user_id: navyaagarwal

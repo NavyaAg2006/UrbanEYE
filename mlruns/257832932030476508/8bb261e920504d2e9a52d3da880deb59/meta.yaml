@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/257832932030476508/8bb261e920504d2e9a52d3da880deb59/artifacts
+end_time: 1780683435765
+entry_point_name: ''
+experiment_id: '257832932030476508'
+lifecycle_stage: active
+run_id: 8bb261e920504d2e9a52d3da880deb59
+run_name: stately-dolphin-74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780683423801
+status: 3
+tags: []
+user_id: navyaagarwal

@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/257832932030476508/d19101164a08434699b2578a16f917c3/artifacts
+end_time: 1780683534033
+entry_point_name: ''
+experiment_id: '257832932030476508'
+lifecycle_stage: active
+run_id: d19101164a08434699b2578a16f917c3
+run_name: wise-fish-670
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780683529115
+status: 3
+tags: []
+user_id: navyaagarwal

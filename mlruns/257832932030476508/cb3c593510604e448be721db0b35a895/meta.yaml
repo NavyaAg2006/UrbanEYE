@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/257832932030476508/cb3c593510604e448be721db0b35a895/artifacts
+end_time: 1780683341250
+entry_point_name: ''
+experiment_id: '257832932030476508'
+lifecycle_stage: active
+run_id: cb3c593510604e448be721db0b35a895
+run_name: upset-koi-120
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780683330413
+status: 3
+tags: []
+user_id: navyaagarwal

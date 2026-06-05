@@ -10,6 +10,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from xgboost import XGBRegressor
 from evaluate import setup_mlflow
+import optuna
 
 ROOT = Path(__file__).parent.parent.parent
 
@@ -122,3 +123,33 @@ with mlflow.start_run(run_name="xgboost"):
     print(f"MAE:  {mae:.4f}")
     print(f"R²:   {r2:.4f}")
     print("Model saved")
+
+def objective(trial):
+    params = {
+        "n_estimators": trial.suggest_int("n_estimators", 100, 500),
+        "max_depth": trial.suggest_int("max_depth", 3, 10),
+        "learning_rate": trial.suggest_float("learning_rate", 0.01, 0.3, log=True),
+        "subsample": trial.suggest_float("subsample", 0.6, 1.0),
+        "colsample_bytree": trial.suggest_float("colsample_bytree", 0.6, 1.0),
+        "min_child_weight": trial.suggest_int("min_child_weight", 1, 10),
+        "gamma": trial.suggest_float("gamma", 0, 5),
+        "random_state": 42,
+        "n_jobs": -1
+    }
+
+    with mlflow.start_run(nested=True):
+        mlflow.log_params(params)
+        model = XGBRegressor(**params)
+        model.fit(X_train, y_train, eval_set=[(X_val, y_val)], verbose=False)
+        preds = model.predict(X_val)
+        rmse = np.sqrt(mean_squared_error(y_val, preds))
+        mlflow.log_metric("rmse", rmse)
+
+    return rmse
+
+with mlflow.start_run(run_name="optuna-study"):
+    study = optuna.create_study(direction="minimize")
+    study.optimize(objective, n_trials=50, show_progress_bar=True)
+
+print(f"\nBest RMSE: {study.best_value:.4f}")
+print(f"Best params: {study.best_params}")

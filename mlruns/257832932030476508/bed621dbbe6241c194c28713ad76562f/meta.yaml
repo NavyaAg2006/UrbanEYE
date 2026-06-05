@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/257832932030476508/bed621dbbe6241c194c28713ad76562f/artifacts
+end_time: 1780683466079
+entry_point_name: ''
+experiment_id: '257832932030476508'
+lifecycle_stage: active
+run_id: bed621dbbe6241c194c28713ad76562f
+run_name: orderly-dolphin-773
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780683461138
+status: 3
+tags: []
+user_id: navyaagarwal
