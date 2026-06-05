@@ -4,7 +4,11 @@ from sqlalchemy import create_engine
 
 
 # Database connection
-DATABASE_URL = "postgresql://postgres:shri2006@localhost:5432/urbaneye"
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 
 def get_engine():

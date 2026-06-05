@@ -9,3 +9,10 @@ wheels/
 # Virtual environments
 .venv
 data/raw/
+models/
+.env
+test.py
+
+.DS_Store
+
+*.parquet

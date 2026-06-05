@@ -1,10 +1,13 @@
-
 import pandas as pd
 import numpy as np 
 from sklearn.ensemble import IsolationForest
 from sqlalchemy import create_engine
-import joblib 
-DATABASE_URL = "postgresql://postgres:shri2006@localhost:5432/urbaneye"
+import joblib
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+DATABASE_URL = os.getenv("DATABASE_URL")
 # Features that the model will use for training 
 
 FEATURES = [
