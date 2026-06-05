@@ -1,0 +1,15 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/257832932030476508/bfc03e97e6bc403b87797b45363da85d/artifacts
+deleted_time: 1780674435273
+end_time: 1780673389596
+entry_point_name: ''
+experiment_id: '257832932030476508'
+lifecycle_stage: deleted
+run_id: bfc03e97e6bc403b87797b45363da85d
+run_name: baseline_linear_regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780673388261
+status: 3
+tags: []
+user_id: navyaagarwal

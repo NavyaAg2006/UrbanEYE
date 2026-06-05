@@ -1,10 +1,15 @@
 import pandas as pd
-import numpy as np 
 from sklearn.ensemble import IsolationForest
 from sqlalchemy import create_engine
 import joblib
 from dotenv import load_dotenv
+from pathlib import Path
 import os
+import mlflow
+import mlflow.sklearn
+from evaluate import setup_mlflow
+
+ROOT = Path(__file__).parent.parent.parent
 
 load_dotenv()
 DATABASE_URL = os.getenv("DATABASE_URL")
@@ -17,29 +22,31 @@ FEATURES = [
     'rolling_30day_crime_rate', 'temperature', 'precipitation',
     'humidity', 'wind_speed'
 ]
+
 def train_isolation_forest():
-    # Load data from database
     engine = create_engine(DATABASE_URL)
     df = pd.read_sql("SELECT * FROM crimes", engine)
     print(f"Data loaded! Shape: {df.shape}")
 
-    # Select only freature columns
     X = df[FEATURES]
 
-    # Create the Isolation Forest model
-    model = IsolationForest(
-        n_estimators=100,
-        contamination=0.02,
-        random_state=42
-    )
+    with mlflow.start_run(run_name="isolation_forest"):
+        params = {
+            "n_estimators": 100,
+            "contamination": 0.02,
+            "random_state": 42
+        }
 
-    # Train the model
-    model.fit(X)
-    print("Model trained successfully!")
+        model = IsolationForest(**params)
+        model.fit(X)
+        print("Model trained successfully!")
 
-    # Save the model to a file
-    joblib.dump(model, 'src/models/isolation_forest_model.pkl')
-    print("Model saved!")
+        mlflow.log_params(params)
+        mlflow.sklearn.log_model(model, "isolation_forest_model")
+
+        joblib.dump(model, ROOT / 'models/isolation_forest_model.pkl')
+        print("Model saved!")
+
     return model, df
 
 def detect_anomaly(model, df, zone, timeslot, date):
@@ -95,6 +102,7 @@ def detect_anomaly(model, df, zone, timeslot, date):
 
 
 if __name__ == "__main__":
+    setup_mlflow()
     model, df = train_isolation_forest()
     
     # Test with a sample
