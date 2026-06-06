@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/563724382391607637/166c1e5b6f474edba20ab332b3db9adc/artifacts
+end_time: 1780760791398
+entry_point_name: ''
+experiment_id: '563724382391607637'
+lifecycle_stage: active
+run_id: 166c1e5b6f474edba20ab332b3db9adc
+run_name: optuna-study
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780760422096
+status: 3
+tags: []
+user_id: navyaagarwal

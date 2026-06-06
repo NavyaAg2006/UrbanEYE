@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/563724382391607637/a10935f109b74cecbf0ad94e289647ef/artifacts
+end_time: 1780760733901
+entry_point_name: ''
+experiment_id: '563724382391607637'
+lifecycle_stage: active
+run_id: a10935f109b74cecbf0ad94e289647ef
+run_name: capricious-robin-39
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780760727703
+status: 3
+tags: []
+user_id: navyaagarwal

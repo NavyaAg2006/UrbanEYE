@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/563724382391607637/1206cd6898ef4c6bb3872f2cdcb1a3c7/artifacts
+end_time: 1780761572048
+entry_point_name: ''
+experiment_id: '563724382391607637'
+lifecycle_stage: active
+run_id: 1206cd6898ef4c6bb3872f2cdcb1a3c7
+run_name: rogue-lark-623
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780761562973
+status: 3
+tags: []
+user_id: navyaagarwal

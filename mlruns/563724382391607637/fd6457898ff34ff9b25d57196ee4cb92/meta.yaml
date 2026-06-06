@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/563724382391607637/fd6457898ff34ff9b25d57196ee4cb92/artifacts
+end_time: 1780760631314
+entry_point_name: ''
+experiment_id: '563724382391607637'
+lifecycle_stage: active
+run_id: fd6457898ff34ff9b25d57196ee4cb92
+run_name: gentle-mink-188
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780760626966
+status: 3
+tags: []
+user_id: navyaagarwal

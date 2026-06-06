@@ -1,0 +1,10 @@
+artifact_location: /Users/navyaagarwal/Projects/urbaneye/mlruns/563724382391607637/models/m-f64a08b5095049a0a924f3df4c4b393f/artifacts
+creation_timestamp: 1780761524556
+experiment_id: '563724382391607637'
+last_updated_timestamp: 1780761528644
+model_id: m-f64a08b5095049a0a924f3df4c4b393f
+model_type: null
+name: xgboost_model
+source_run_id: d94bc010b9c94d4c8997998719c5f5eb
+status: 2
+status_message: null

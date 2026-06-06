@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/563724382391607637/b94628697b304d0484d426510d73eff9/artifacts
+end_time: 1780761355140
+entry_point_name: ''
+experiment_id: '563724382391607637'
+lifecycle_stage: active
+run_id: b94628697b304d0484d426510d73eff9
+run_name: xgboost
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780761340972
+status: 3
+tags: []
+user_id: navyaagarwal

@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/563724382391607637/feb3a995f9f64a4eb0911517b903e917/artifacts
+end_time: 1780760450392
+entry_point_name: ''
+experiment_id: '563724382391607637'
+lifecycle_stage: active
+run_id: feb3a995f9f64a4eb0911517b903e917
+run_name: likeable-asp-852
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780760441353
+status: 3
+tags: []
+user_id: navyaagarwal

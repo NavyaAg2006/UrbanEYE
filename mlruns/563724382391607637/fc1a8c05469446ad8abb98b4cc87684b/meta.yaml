@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/563724382391607637/fc1a8c05469446ad8abb98b4cc87684b/artifacts
+end_time: 1780761895385
+entry_point_name: ''
+experiment_id: '563724382391607637'
+lifecycle_stage: active
+run_id: fc1a8c05469446ad8abb98b4cc87684b
+run_name: trusting-kite-229
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780761882451
+status: 3
+tags: []
+user_id: navyaagarwal

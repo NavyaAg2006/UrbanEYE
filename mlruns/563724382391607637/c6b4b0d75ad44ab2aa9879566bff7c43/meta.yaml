@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/563724382391607637/c6b4b0d75ad44ab2aa9879566bff7c43/artifacts
+end_time: 1780760577871
+entry_point_name: ''
+experiment_id: '563724382391607637'
+lifecycle_stage: active
+run_id: c6b4b0d75ad44ab2aa9879566bff7c43
+run_name: rogue-trout-243
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780760574267
+status: 3
+tags: []
+user_id: navyaagarwal

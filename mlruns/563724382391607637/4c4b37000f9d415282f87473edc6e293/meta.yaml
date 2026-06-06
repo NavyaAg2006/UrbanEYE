@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/563724382391607637/4c4b37000f9d415282f87473edc6e293/artifacts
+end_time: 1780761970523
+entry_point_name: ''
+experiment_id: '563724382391607637'
+lifecycle_stage: active
+run_id: 4c4b37000f9d415282f87473edc6e293
+run_name: welcoming-moose-909
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780761961992
+status: 3
+tags: []
+user_id: navyaagarwal

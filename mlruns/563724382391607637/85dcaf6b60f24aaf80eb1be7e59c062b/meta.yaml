@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/563724382391607637/85dcaf6b60f24aaf80eb1be7e59c062b/artifacts
+end_time: 1780761859680
+entry_point_name: ''
+experiment_id: '563724382391607637'
+lifecycle_stage: active
+run_id: 85dcaf6b60f24aaf80eb1be7e59c062b
+run_name: brawny-hog-750
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780761850732
+status: 3
+tags: []
+user_id: navyaagarwal

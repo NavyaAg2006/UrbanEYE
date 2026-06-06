@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/563724382391607637/77978399898949d988c7af347e21269e/artifacts
+end_time: 1780760676433
+entry_point_name: ''
+experiment_id: '563724382391607637'
+lifecycle_stage: active
+run_id: 77978399898949d988c7af347e21269e
+run_name: skittish-penguin-739
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780760668651
+status: 3
+tags: []
+user_id: navyaagarwal

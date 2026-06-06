@@ -153,3 +153,24 @@ with mlflow.start_run(run_name="optuna-study"):
 
 print(f"\nBest RMSE: {study.best_value:.4f}")
 print(f"Best params: {study.best_params}")
+
+# Final evaluation on test set — run this once only
+print("\n── Final Test Set Evaluation ──")
+X_test = test[feature_cols]
+y_test = test["risk_score"]
+
+test_preds = xgb.predict(X_test)
+
+test_rmse = np.sqrt(mean_squared_error(y_test, test_preds))
+test_mae = mean_absolute_error(y_test, test_preds)
+test_r2 = r2_score(y_test, test_preds)
+
+print(f"RMSE: {test_rmse:.4f}")
+print(f"MAE:  {test_mae:.4f}")
+print(f"R²:   {test_r2:.4f}")
+
+# Log test metrics to MLflow separately
+with mlflow.start_run(run_name="xgboost_final_test_evaluation"):
+    mlflow.log_metric("test_rmse", round(test_rmse, 4))
+    mlflow.log_metric("test_mae", round(test_mae, 4))
+    mlflow.log_metric("test_r2", round(test_r2, 4))

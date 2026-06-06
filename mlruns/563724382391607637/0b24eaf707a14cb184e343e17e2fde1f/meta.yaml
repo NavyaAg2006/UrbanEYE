@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/563724382391607637/0b24eaf707a14cb184e343e17e2fde1f/artifacts
+end_time: 1780760607473
+entry_point_name: ''
+experiment_id: '563724382391607637'
+lifecycle_stage: active
+run_id: 0b24eaf707a14cb184e343e17e2fde1f
+run_name: thundering-rat-9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780760601858
+status: 3
+tags: []
+user_id: navyaagarwal

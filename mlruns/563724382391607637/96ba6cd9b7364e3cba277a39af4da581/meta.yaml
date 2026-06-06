@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/563724382391607637/96ba6cd9b7364e3cba277a39af4da581/artifacts
+end_time: 1780761789261
+entry_point_name: ''
+experiment_id: '563724382391607637'
+lifecycle_stage: active
+run_id: 96ba6cd9b7364e3cba277a39af4da581
+run_name: polite-ram-933
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780761781857
+status: 3
+tags: []
+user_id: navyaagarwal

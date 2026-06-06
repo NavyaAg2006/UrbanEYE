@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/563724382391607637/9cbababf3db842af9755598e6998b250/artifacts
+end_time: 1780761944647
+entry_point_name: ''
+experiment_id: '563724382391607637'
+lifecycle_stage: active
+run_id: 9cbababf3db842af9755598e6998b250
+run_name: luminous-bug-61
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780761936781
+status: 3
+tags: []
+user_id: navyaagarwal

@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/563724382391607637/8e8d138cd50c4d48b6fc6f46e3e578a0/artifacts
+end_time: 1780761830350
+entry_point_name: ''
+experiment_id: '563724382391607637'
+lifecycle_stage: active
+run_id: 8e8d138cd50c4d48b6fc6f46e3e578a0
+run_name: loud-swan-394
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780761813899
+status: 3
+tags: []
+user_id: navyaagarwal

@@ -1,0 +1,14 @@
+artifact_uri: /Users/navyaagarwal/Projects/urbaneye/mlruns/563724382391607637/003eff529019474a842c9e70d8e7fe87/artifacts
+end_time: 1780761871437
+entry_point_name: ''
+experiment_id: '563724382391607637'
+lifecycle_stage: active
+run_id: 003eff529019474a842c9e70d8e7fe87
+run_name: selective-grouse-993
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780761862687
+status: 3
+tags: []
+user_id: navyaagarwal
