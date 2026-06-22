@@ -11,6 +11,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from xgboost import XGBRegressor
 from evaluate import setup_mlflow
 import optuna
+import joblib
 
 ROOT = Path(__file__).parent.parent.parent
 
@@ -24,6 +25,9 @@ df["season"] = df["season"].map(season_map)
 # Encode zone
 le = LabelEncoder()
 df["zone"] = le.fit_transform(df["zone"])
+
+joblib.dump(le, ROOT / "models/zone_encoder.pkl")
+print("Zone encoder saved!")
 
 # Time-based split
 train = df[df["year"] <= 2023]

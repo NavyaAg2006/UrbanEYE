@@ -1,6 +1,7 @@
 from fastapi import FastAPI,HTTPException
 from pydantic import BaseModel
 from typing import Literal
+from services import predict_risk, get_history, get_heatmap
 
 class PredictRequest(BaseModel):
     zone: str
